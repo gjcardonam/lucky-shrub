@@ -1,0 +1,36 @@
+header > img{
+    display: block;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 2px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+section{
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer div > img{
+    height: 100px;
+}
