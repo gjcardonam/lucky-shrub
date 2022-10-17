@@ -13,10 +13,18 @@ nav ul{
 
 nav li{
     display: inline-block;
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
 }
 
 section{
     display: flex;
+    margin: 50px;
 }
 
 article {
@@ -25,6 +33,7 @@ article {
 
 footer{
     display: flex;
+    margin: 50px;
 }
 
 footer div{
@@ -33,4 +42,51 @@ footer div{
 
 footer div > img{
     height: 100px;
+}
+
+nav{
+    background-color: #AA3939;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#banner{
+    background-image: url('../public/wallpaper.jpg');
+    background-size: 100%;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+section article{
+    padding: 20px;
+}
+
+#blogs article{
+    margin: 10px;
+    background-color: #FFF9F1;
+    border-radius: 5px;
+}
+
+#blogs article p{
+    font-size: 0.7rem;
+}
+
+#blogs article a{
+    font-size: 0.7rem;
+}
+
+section article img{
+    width: 100%;
+}
+
+footer{
+    font-size: 0.7rem;
 }
